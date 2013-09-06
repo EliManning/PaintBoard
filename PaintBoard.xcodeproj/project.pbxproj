@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4195175517D7A44F00FDF837 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4195175417D7A44F00FDF837 /* QuartzCore.framework */; };
+		4195175917D7A8E200FDF837 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4195175817D7A8E200FDF837 /* MyView.m */; };
+		41ABB94617D969F300D7EA3C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ABB94317D9694800D7EA3C /* logo.png */; };
+		41ABB94817D9725D00D7EA3C /* 1325164157_emblem-art21-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 41ABB94717D9725C00D7EA3C /* 1325164157_emblem-art21-114x114.png */; };
 		41B8241C17D798CF0006E5F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B8241B17D798CF0006E5F2 /* UIKit.framework */; };
 		41B8241E17D798CF0006E5F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B8241D17D798CF0006E5F2 /* Foundation.framework */; };
 		41B8242017D798CF0006E5F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B8241F17D798CF0006E5F2 /* CoreGraphics.framework */; };
@@ -21,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4195175417D7A44F00FDF837 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4195175717D7A8E200FDF837 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		4195175817D7A8E200FDF837 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		41ABB94317D9694800D7EA3C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		41ABB94717D9725C00D7EA3C /* 1325164157_emblem-art21-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1325164157_emblem-art21-114x114.png"; sourceTree = "<group>"; };
 		41B8241717D798CF0006E5F2 /* PaintBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B8241B17D798CF0006E5F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		41B8241D17D798CF0006E5F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4195175517D7A44F00FDF837 /* QuartzCore.framework in Frameworks */,
 				41B8241C17D798CF0006E5F2 /* UIKit.framework in Frameworks */,
 				41B8241E17D798CF0006E5F2 /* Foundation.framework in Frameworks */,
 				41B8242017D798CF0006E5F2 /* CoreGraphics.framework in Frameworks */,
@@ -53,9 +63,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41ABB94917D972DC00D7EA3C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				41ABB94717D9725C00D7EA3C /* 1325164157_emblem-art21-114x114.png */,
+				41ABB94317D9694800D7EA3C /* logo.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		41B8240C17D798CE0006E5F2 = {
 			isa = PBXGroup;
 			children = (
+				41ABB94917D972DC00D7EA3C /* Image */,
 				41B8242117D798CF0006E5F2 /* PaintBoard */,
 				41B8241A17D798CF0006E5F2 /* Frameworks */,
 				41B8241817D798CF0006E5F2 /* Products */,
@@ -73,6 +93,7 @@
 		41B8241A17D798CF0006E5F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4195175417D7A44F00FDF837 /* QuartzCore.framework */,
 				41B8241B17D798CF0006E5F2 /* UIKit.framework */,
 				41B8241D17D798CF0006E5F2 /* Foundation.framework */,
 				41B8241F17D798CF0006E5F2 /* CoreGraphics.framework */,
@@ -88,6 +109,8 @@
 				41B8243317D798CF0006E5F2 /* MainStoryboard.storyboard */,
 				41B8243617D798CF0006E5F2 /* ViewController.h */,
 				41B8243717D798CF0006E5F2 /* ViewController.m */,
+				4195175717D7A8E200FDF837 /* MyView.h */,
+				4195175817D7A8E200FDF837 /* MyView.m */,
 				41B8242217D798CF0006E5F2 /* Supporting Files */,
 			);
 			path = PaintBoard;
@@ -163,6 +186,8 @@
 				41B8243017D798CF0006E5F2 /* Default@2x.png in Resources */,
 				41B8243217D798CF0006E5F2 /* Default-568h@2x.png in Resources */,
 				41B8243517D798CF0006E5F2 /* MainStoryboard.storyboard in Resources */,
+				41ABB94617D969F300D7EA3C /* logo.png in Resources */,
+				41ABB94817D9725D00D7EA3C /* 1325164157_emblem-art21-114x114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +201,7 @@
 				41B8242817D798CF0006E5F2 /* main.m in Sources */,
 				41B8242C17D798CF0006E5F2 /* AppDelegate.m in Sources */,
 				41B8243817D798CF0006E5F2 /* ViewController.m in Sources */,
+				4195175917D7A8E200FDF837 /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +318,7 @@
 				41B8243D17D798CF0006E5F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
