@@ -1,0 +1,9 @@
+Use Storyboard, ARC and QuartzCore framework.
+
+Functionalities include:
+1. Draw lines on the screen
+2. Select line color
+3. Select line width
+4. Clear screen
+5. Undo the former drawing
+6. Save the drawing picture to local photo directory
